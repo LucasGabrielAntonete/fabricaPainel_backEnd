@@ -1,0 +1,38 @@
+[project]
+name = "fabrica_painel"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "lucasantonete@gmail.com", email = "lucasantonete@gmail.com"},
+]
+dependencies = [
+    "django>=5.0.6",
+    "djangorestframework>=3.15.1",
+    "django-cors-headers>=4.3.1",
+    "djangorestframework-simplejwt>=5.3.1",
+    "setuptools>=70.0.0",
+    "python-magic>=0.4.27",
+    "Pillow>=10.3.0",
+    "drf-spectacular>=0.27.2",
+    "django-extensions>=3.2.3",
+    "pygraphviz>=1.13",
+    "pyparsing>=3.1.2",
+    "pydot>=2.0.0",
+    "django-filter>=24.2",
+    "dotenv>=0.0.5",
+    "python-dotenv>=1.0.1",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm.scripts]
+dev = "python manage.py runserver 0.0.0.0:19003"
+runserver = "python manage.py runserver"
+createsuperuser = "python manage.py createsuperuser"
+migrate = "python manage.py migrate"
+makemigrations = "python manage.py makemigrations"
+
+
+[tool.pdm]
+distribution = false
