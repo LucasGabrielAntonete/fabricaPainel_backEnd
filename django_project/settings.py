@@ -59,7 +59,7 @@ REST_FRAMEWORK = {
         "rest_framework_simplejwt.authentication.JWTAuthentication",
     ),
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
-}
+    }
 
 SPECTACULAR_SETTINGS = {
     "TITLE": "Fabrica Painel API",
@@ -169,3 +169,4 @@ EMAIL_PORT: int = 587
 EMAIL_USE_TLS: bool = True
 EMAIL_HOST_USER: str = "email do app gmail do painel"
 EMAIL_HOST_PASSWORD: str = "senha do app gmail do painel"
+
