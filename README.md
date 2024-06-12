@@ -1,12 +1,12 @@
 # Fabrica Painel backend.
 
-## Caso de uso do projeto.
-
-![alt text](images/fabricaPainel.png)
-
 ## Diagrama do banco de dados.
 
 ![alt text](images/diagram.png)
+
+## Caso de uso do projeto.
+
+![alt text](images/fabricaPainel.png)
 
 ## Fluxo do Lider do trabalho.
 
