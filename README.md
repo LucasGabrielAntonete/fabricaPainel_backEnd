@@ -10,7 +10,7 @@
 
 ## Fluxo do Lider do trabalho.
 
-![alt text](images/fabricaPainel%20(1).png)
+![alt text](images/fabricaPainel%20(3).png)
 
 ## Fluxo do Usuário
 
