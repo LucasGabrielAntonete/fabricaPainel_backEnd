@@ -15,8 +15,6 @@ from drf_spectacular.views import (
 from core.usuario.router import router as usuario_router
 from core.uploader.router import router as uploader_router
 
-# from core.fabrica_painel.views.assessment import AssessmentViewSet
-
 from core.fabrica_painel.views import (
     AssessmentViewSet,
     KeywordViewSet,
